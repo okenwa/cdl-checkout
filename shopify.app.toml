@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "cdl-app"
+client_id = "e65c12661d1a7935d51ba98ea7ebfe15"
+application_url = "https://encyclopedia-hand-variety-invisible.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://encyclopedia-hand-variety-invisible.trycloudflare.com/auth/callback",
+  "https://encyclopedia-hand-variety-invisible.trycloudflare.com/auth/shopify/callback",
+  "https://encyclopedia-hand-variety-invisible.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-07"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "quickstart-78cc82fa.myshopify.com"

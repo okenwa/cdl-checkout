@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "cdl-app"
+client_id = "3afb6c93b5092766a3b92ebebb8a0c05"
+application_url = "https://hans-modem-drunk-cake.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://hans-modem-drunk-cake.trycloudflare.com/auth/callback",
+  "https://hans-modem-drunk-cake.trycloudflare.com/auth/shopify/callback",
+  "https://hans-modem-drunk-cake.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-07"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "cdlpayment.myshopify.com"
