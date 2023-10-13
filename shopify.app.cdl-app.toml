@@ -2,7 +2,7 @@
 
 name = "cdl-app"
 client_id = "3afb6c93b5092766a3b92ebebb8a0c05"
-application_url = "https://hans-modem-drunk-cake.trycloudflare.com"
+application_url = "https://desired-sealed-clause-bugs.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://hans-modem-drunk-cake.trycloudflare.com/auth/callback",
-  "https://hans-modem-drunk-cake.trycloudflare.com/auth/shopify/callback",
-  "https://hans-modem-drunk-cake.trycloudflare.com/api/auth/callback"
+  "https://desired-sealed-clause-bugs.trycloudflare.com/auth/callback",
+  "https://desired-sealed-clause-bugs.trycloudflare.com/auth/shopify/callback",
+  "https://desired-sealed-clause-bugs.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
