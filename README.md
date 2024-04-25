@@ -1,8 +1,6 @@
-# Shopify App Template - Remix
+# Shopify App for Credit Direct - Remix
 
-This is a template for building a [Shopify app](https://shopify.dev/docs/apps/getting-started) using the [Remix](https://remix.run) framework.
-
-<!-- TODO: Uncomment this after we've started using the template in the CLI -->
+This is a payment app on Shopify by CDL Nigeria 
 <!-- Rather than cloning this repo, you can use your preferred package manager and the Shopify CLI with [these steps](#installing-the-template). -->
 
 ## Quick start
